@@ -1,0 +1,20 @@
+local words = {
+    'ur bad',
+    'seed',
+    'u tried L',
+    'bad',
+    'clown',
+    'sonned',
+    'so bad fr quit dh',
+}
+
+local player = game.Players.LocalPlayer
+local keybind = 't'
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+
+player:GetMouse().KeyDown:connect(function(key)
+    if key == keybind then
+        event:FireServer(words[math.random(#words)], "All")
+    end
+end)
