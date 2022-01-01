@@ -1,11 +1,14 @@
 local words = {
-    'ur bad',
+    'L',
     'seed',
-    'u tried L',
+    'tried',
     'bad',
     'clown',
     'sonned',
     'so bad fr quit dh',
+    'worst player gtjfjojj goofy',
+    'stop playing',
+    'never seen bad player like u before',
 }
 
 local player = game.Players.LocalPlayer
